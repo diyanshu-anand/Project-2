@@ -1,0 +1,22 @@
+#teachers::before{
+    content: "";
+    position: absolute;
+    
+    /* width: 100%; */  /*Isko consider nhi krna kyunki ye size badha de rha*/
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+   
+#teachers{
+    display:block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../img/Applybg2.jpg');
+}
+#teachers-item{
+    padding: 34px;
+}
+   

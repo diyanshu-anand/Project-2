@@ -1,0 +1,80 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+#tutor-section{ 
+    position: relative;
+}
+
+#tutor-section::before{
+ content: "";
+ position: absolute;
+ 
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#tutor{
+    display:block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../img/Applybg2.jpg');
+}
+
+.tutor-item{
+    padding: 34px;
+}
+
+#tutor img{
+    height: 100%;
+    padding: 19px 0px;
+}
+
+.h-tutor{
+    font-size: 53px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+.tutorp{
+    font-size: 22px;
+    margin: 20px;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+
+.tutorpscan{
+    margin: 38px;
+    font-size: 31px;
+    text-decoration: underline;
+    font-family: 'Bree Serif',serif;
+}
+
+.formbtn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.formbtn a{
+    color: white;
+    text-decoration: none;
+}
+
+.formbtn a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+    

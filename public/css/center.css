@@ -1,0 +1,117 @@
+/* #HomeTution-section{ 
+    position: relative;
+} */
+
+#HomeTution::before{
+ content: "";
+ position: absolute;
+ 
+ /* width: 100%; */  /*Isko consider nhi krna kyunki ye size badha de rha*/
+ height: 100%;
+ z-index: -1;
+ opacity: 0.3;
+}
+
+#HomeTution{
+    display:block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../img/Applybg2.jpg');
+}
+
+#HomeTution-item{
+    padding: 34px;
+}
+
+#HomeTution img{
+    height: 100%;
+}
+
+.main-h{
+    font-size: 83px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+.main-p{
+    font-size: 52px;
+    margin: 20px;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+
+.h-hometut{
+    font-size: 53px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Bree Serif', serif;
+}
+
+.hometutp{
+    font-size: 22px;
+    margin: 20px;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+
+.h2-hometut{
+    font-size: 53px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    padding: 10px;
+}
+
+.h3-hometut{
+    font-size: 53px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Bree Serif', serif;    
+}
+
+.h4-offtut{
+    font-size: 53px;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Bree Serif', serif;
+    padding: 20px;
+}
+
+.tutorpscan{
+    margin: 38px;
+    font-size: 31px;
+    text-decoration: underline;
+    font-family: 'Bree Serif',serif;
+}
+
+#HomeTution img{
+    height: 100%;
+    width: 50%;
+    padding: 30px;
+}
+
+.formbtn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: brown;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+
+.formbtn a{
+    color: white;
+    text-decoration: none;
+}
+
+.formbtn a:hover{
+    color: white;
+    cursor: pointer;
+}
